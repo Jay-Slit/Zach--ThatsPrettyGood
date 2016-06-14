@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "That's Pretty Good",
+  "version": "1.0",
+
+  "icons": {
+    "38": "icon.png"
+  },
+
+  "browser_action": {
+
+  },
+
+  "permissions": [
+    "tabs",
+    "background"
+  ],
+
+  "background": { "scripts": ["background.js"] }
+}
